@@ -1,0 +1,390 @@
+img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .section-padding{
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+  
+  
+  .navbar{
+    background: linear-gradient(to bottom,  #828282, #5d5d5d);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  
+  .navbar .nav-link {
+    color: white !important;
+    margin-right: 20px;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #484747 !important;
+  }
+  
+  /*Pages background*/
+  #page1{
+    background: linear-gradient(to left, #1C1C1C, #292929, #828282);
+    margin-bottom: -30px;
+  }
+  #page2 {
+    min-height: 100vh; 
+    background: linear-gradient(to right, #1C1C1C, #292929, #828282);
+  }
+  #page3{
+    min-height: 100vh; 
+    background: linear-gradient(to bottom, #1C1C1C, #292929, #828282);
+  }
+  #page4{
+    min-height: 100vh; 
+    background: linear-gradient(to bottom, #1C1C1C, #292929, #828282);
+  }
+  #footer{
+    background: linear-gradient(to bottom, #1C1C1C, #292929, #828282);
+  }
+  .pic-fluid {
+      width: 500px;  
+      height: auto;
+  }
+  
+  .dauntless_port-md-3{
+    width: 50%;
+    color: white;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hire :hover{
+    background-color: #f6c533; /* Change background color on hover */
+    transform: scale(1.02); /* Slightly enlarge on hover */
+
+  }
+  .hire{
+    color: rgb(53, 55, 56);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+  
+  .pic_text {
+    padding: 20px;
+  }
+  
+  .pic_text .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .pic-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .col-md-6 {
+    margin-right: -5px;
+  }
+  
+
+  
+  /*page2*/
+  .about-md-12{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  }
+
+  .grouppic {
+    width: 600px; 
+    border-radius: 10px; 
+  }
+  .aboutus{
+    padding: 20px;
+    display: flex;
+    justify-content: inline;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  
+  .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; 
+    padding: 10px;
+    width: 90%; 
+  }
+  
+  .aboutphrase {
+    font-style: italic;
+  }
+  
+/*page3*/
+
+   .dauntmem{
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: inline;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+   }
+
+   .member{
+    text-align: center;
+    background-color: #5d5d5d4e;
+    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+   }
+
+   .chris{
+    border-radius: 20px;
+   }
+
+   .mem {
+    color:white;
+    text-align: center;
+   }
+
+   .personal {
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #828282;
+   }
+ 
+
+  @media (max-width: 667px) {
+    .hello {
+      font-size: 2rem;
+    }
+    .port{
+      font-size: 1.2rem;
+    }
+  }
+  
+  
+  @media (min-width: 668px) and (max-width: 1180px) {
+    .hello {
+      font-size: 2rem;
+    }
+    .port{
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .aboutme, .skills, .education, .contact {
+      font-size: 2rem; 
+    }
+    .aboutphrase, ul {
+      font-size: .8rem; 
+    }
+    .col-md-6 .pic-fluid {
+      width: 75%;
+    }
+  }
+  
+  @media (max-width: 667px) {
+    .aboutme, .skills, .education, .contact {
+      font-size: 2rem; 
+    }
+    .aboutphrase, ul {
+      font-size: .8rem; 
+    }
+    .col-md-6 .pic-fluid {
+      width: 75%;
+    }
+  }
+  
+  @media (min-width: 667px) {
+    .aboutgoal-md-6, .skillshobb-md-6{
+      width: 47%;
+    }
+    
+  }
+  
+  .progress-bar.custom-color {
+    background-color: #404040; 
+  }
+  
+  #roweduc{
+    color: white;
+  }
+  
+  .coursecert {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .carousel-item img {
+    width: 100%; 
+    height: auto;
+    max-height: 500px; 
+    object-fit: cover; 
+  }
+  
+  
+  .carousel {
+    max-width: 700px; 
+    margin: 0 auto;  
+  }
+  
+  .progress .progress-bar{
+    background-color: #828282; 
+  }
+  
+  .educ{
+    opacity: 60%
+  }
+  
+  
+  .coursecert {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .col-md-6 {
+    width: 48%;
+  }
+  
+  
+  @media (max-width: 667px) {
+    .coursecert {
+      flex-direction: column;
+      align-items: center;
+    }
+    .col-md-6 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    #carouselExampleIndicators {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .carousel-inner img {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+    }
+    .progress {
+      margin-bottom: 20px;
+    }
+  
+    .concen {
+      flex-direction: column;
+      align-items: center;
+    }
+    .educ, .contact {
+      font-size: 1.5rem;
+    }
+    .det{
+      font-size: .9rem;
+    }
+  }
+  
+  .contactdetails, .concen, .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactme, .details{
+    color: white;
+    padding: 40px;
+  }
+  .contact{
+    text-align: center;
+  }
+  .icon, .iconname{
+    display: inline-flex;
+  }
+  .concen{
+    background-color: #40404030;
+    border-radius: 30px;
+  }
+  .iconname a {
+    color: rgba(255, 255, 255, 0.922); 
+  }
+  
+  .iconname a:hover {
+    color: #494b6d;
+    cursor: pointer;
+  }
+  
+  /* Fade-in text animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-25px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  .hello, .hire {
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  
+  @media (min-width: 668px) and (max-width: 1024px) {
+    .hello {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .port {
+      font-size: 1.5rem;
+      animation-delay: 1s; 
+    }
+  }
+  @media (max-width: 667px) {
+    .hello {
+      font-size: 2rem;
+    }
+    .port {
+      font-size: 1.2rem;
+      animation-delay: 1s;
+    }
+  }
+  @media (min-width: 1025px) {
+    .hello {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    .port {
+      font-size: 2rem;
+      animation-delay: 1s;
+    }
+  }
+  
