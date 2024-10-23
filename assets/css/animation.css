@@ -1,5 +1,14 @@
-.aboutme, .aboutphrase, .skills, .skills2, .education, .educ, .koleheyo, .contact, .icon, .iconname{
-  transition: transform 0.3s ease;
+.pic-fluid, .hello, .port, .aboutme, .aboutphrase, .skills, .skills2, .education, .educ, .koleheyo, .contact, .icon, .iconname{
+  transition: transform 0.2s ease;
+}
+.pic-fluid:hover {
+  transform: scale(0.9);
+}
+.hello:hover {
+  transform: scale(0.9);
+}
+.port:hover {
+  transform: scale(0.9);
 }
 .aboutme:hover {
   transform: scale(0.9);

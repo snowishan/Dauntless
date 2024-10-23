@@ -49,6 +49,14 @@
   }
 }
 @media (max-width: 667px) {
+  .col-md-6 .pic-fluid {
+    border: solid;
+    border-radius: 50px;
+    background: linear-gradient(to top, #363636, #828282);
+  }
+  .hello, .port{
+    text-align: center;
+  }
   .hello {
     font-size: 2rem;
   }
@@ -56,13 +64,10 @@
     font-size: 1.2rem;
   }
   .aboutme, .skills, .education, .contact {
-    font-size: 2rem; 
+    font-size: 1.8rem; 
   }
   .aboutphrase, ul {
     font-size: .8rem; 
-  }
-  .col-md-6 .pic-fluid {
-    width: 75%;
   }
 }
 
@@ -110,5 +115,4 @@
   .det{
     font-size: .9rem;
   }
-
 }
