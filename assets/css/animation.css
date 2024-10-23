@@ -1,0 +1,78 @@
+.aboutme, .aboutphrase, .skills, .skills2, .education, .educ, .koleheyo, .contact, .icon, .iconname{
+  transition: transform 0.3s ease;
+}
+.aboutme:hover {
+  transform: scale(0.9);
+}
+.aboutphrase:hover {
+  transform: scale(0.9);
+}
+.skills:hover {
+  transform: scale(0.9);
+}
+.skills2:hover {
+  transform: scale(0.9);
+}
+.education:hover {
+  transform: scale(0.9);
+}
+.educ:hover {
+  transform: scale(0.9);
+}
+.koleheyo:hover {
+  transform: scale(0.9);
+}
+.contact:hover {
+  transform: scale(0.9);
+}
+.icon:hover {
+  transform: scale(0.9);
+}
+.iconname:hover {
+  transform: scale(0.9);
+}
+
+/* Fade-in text animation */
+.hello, .port {
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
+@media (max-width: 667px) {
+  .hello {
+    font-size: 2rem;
+  }
+  .port {
+    font-size: 1.2rem;
+    animation-delay: 1s;
+  }
+}
+@media (min-width: 668px) and (max-width: 1024px) {
+  .hello {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .port {
+    font-size: 1.5rem;
+    animation-delay: 1s; 
+  }
+}
+@media (min-width: 1025px) {
+  .hello {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .port {
+    font-size: 2rem;
+    animation-delay: 1s;
+  }
+}

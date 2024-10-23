@@ -1,0 +1,114 @@
+#page1 {
+  background: linear-gradient(to top, #1C1C1C, #292929, #828282); 
+  margin-bottom: -20px;
+  background-size: 400% 400%; 
+  animation: gradientAnimation 20s ease infinite; 
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background: linear-gradient(to top, #1C1C1C, #292929, #828282);
+    background-position: 0% 50%;
+  }
+  25% {
+    background: linear-gradient(to right, #1C1C1C, #292929, #828282); 
+    background-position: 50% 0%;
+  }
+  50% {
+    background: linear-gradient(to bottom, #1C1C1C, #292929, #828282);
+    background-position: 100% 50%;
+  }
+  75% {
+    background: linear-gradient(to left, #1C1C1C, #292929, #828282);
+    background-position: 50% 100%;
+  }
+  100% {
+    background: linear-gradient(to top, #1C1C1C, #292929, #828282);
+    background-position: 0% 50%;
+  }
+}
+
+#page2 {
+  background: linear-gradient(to bottom, #1C1C1C, #292929, #828282);
+  transition: background 2s ease-in-out; /* Smooth background transition */
+
+}
+
+#page3{
+  background: linear-gradient(to top, #1C1C1C, #292929, #828282);
+}
+
+#footer{
+  background: linear-gradient(to bottom, #1C1C1C, #292929, #828282);
+}
+
+/*Responsiveness*/
+@media (min-width: 667px){
+  .aboutgoal-md-6, .skillshobb-md-6{
+    width: 47%;
+  }
+}
+@media (max-width: 667px) {
+  .hello {
+    font-size: 2rem;
+  }
+  .port{
+    font-size: 1.2rem;
+  }
+  .aboutme, .skills, .education, .contact {
+    font-size: 2rem; 
+  }
+  .aboutphrase, ul {
+    font-size: .8rem; 
+  }
+  .col-md-6 .pic-fluid {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .aboutme, .skills, .education, .contact {
+    font-size: 2rem; 
+  }
+  .aboutphrase, ul {
+    font-size: .8rem; 
+  }
+  .col-md-6 .pic-fluid {
+    width: 75%;
+  }
+}
+
+@media (max-width: 667px) {
+  .coursecert {
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-md-6 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #carouselExampleIndicators {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+  }
+  .progress {
+    margin-bottom: 20px;
+  }
+
+  .concen {
+    flex-direction: column;
+    align-items: center;
+  }
+  .educ, .contact {
+    font-size: 1.5rem;
+  }
+  .det{
+    font-size: .9rem;
+  }
+
+}
