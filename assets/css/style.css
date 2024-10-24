@@ -1,0 +1,211 @@
+
+  .navigation {
+    text-align: center; 
+  }
+
+  .navbar-nav {
+    display: inline-flex; 
+    justify-content: center; 
+    width: 100%; 
+  }
+
+  .nav-link {
+    margin: 0 15px; 
+  }
+
+
+.navbar-nav .nav-item {
+  display: flex;
+  justify-content: inline;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.navbar {
+  background-color: rgba(50, 50, 51, 0.507)!important;
+  color: white !important;
+}
+.navbar .nav-link {
+  color: white !important;
+}
+.navbar .navbar-brand {
+  color: white !important;
+}
+.navbar .nav-link:hover {
+  color: #484747 !important;
+}
+.logoname2, .logo-md-5, .logoname-md-7{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px;
+  align-items: center;
+}
+.logoimg-fluid {
+  width: 500px;
+  height: auto;
+  margin-left: -20px;
+  border-radius: 10px;
+}
+
+.logo-md-5 {
+  padding: 60px;
+  margin-top: -40px; 
+}
+.logoname-md-7 {
+  color: white;
+  font-weight: bold;
+}
+
+.dauntteam {
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+/*page2*/
+#page2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+}
+
+.grouptext-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px; 
+  margin: 0 auto; 
+}
+
+.group-fluid {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.aboutus h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+  opacity: 60%;
+}
+
+.aboutus p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: white !important;
+  margin: 0 20px;
+}
+
+.aboutus {
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px; 
+}
+
+.aboutus h2 {
+  font-size: 2rem; 
+  margin-bottom: 15px;
+}
+
+.aboutus p {
+  font-size: 1rem; 
+  line-height: 1.5; 
+}
+
+
+  /*page3*/
+  .dauntmem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .member {
+    text-align: center;
+    background-color: rgba(93, 93, 93, 0.4);
+    border-radius: 20px;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  .profile {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .mem, .educ {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    transition: color 0.3s ease; 
+    font-size: 30px;
+    opacity: 60%;
+  }
+  .member p{
+    color:white;
+  }
+  
+  
+  /*Page 4*/
+  .works-certificates-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 50%; 
+    margin: 0 auto; 
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .works, .certificates {
+    width: 100%;
+  }
+
+/* Footer*/
+.contactdetails, .concen, .icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactme, .details{
+  color: white;
+  padding: 40px;
+}
+.contact{
+  text-align: center;
+  opacity: 60%;
+  font-weight: bold;
+}
+.icon, .iconname{
+  display: inline-flex;
+}
+.concen{
+  background-color: #40404030;
+  border-radius: 30px;
+}
+.iconname a {
+  color: rgba(255, 255, 255, 0.922); 
+}
+
+.iconname a:hover {
+  color: #494b6d;
+  cursor: pointer;
+}

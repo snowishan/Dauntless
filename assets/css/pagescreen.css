@@ -1,0 +1,144 @@
+#page1{
+  background: linear-gradient(to left, #1C1C1C, #292929, #666666); 
+}
+#page2{
+  background: linear-gradient(to right, #1C1C1C, #292929, #666666); 
+  width: 100vw;
+  height: 100vh;
+}
+#page3{
+  background: linear-gradient(to bottom, #1C1C1C, #292929, #666666); 
+  margin-bottom: 100px;
+}
+#page4{
+  margin-top: -100px;
+  background: linear-gradient(to top, #1C1C1C, #292929, #666666); 
+}
+#page5{
+  margin-top: 0px;
+  background: linear-gradient(to bottom, #1C1C1C, #292929, #666666); 
+
+}
+
+
+@media (max-width: 667px) {
+  .logoname2 {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    padding: 20px;
+  }
+
+  .logoimg-fluid {
+    width: 80%; 
+    margin-bottom: -10px; 
+  }
+  .aboutus{
+    font-size: .2rem;
+  }
+  .aboutus h2 {
+    font-size: 1.5rem; 
+    margin-bottom: 10px; 
+  }
+
+  .aboutus p {
+    font-size: 0.9rem; 
+    margin: 0 10px; 
+  }
+
+  .group-fluid {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .dauntmem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; 
+    justify-items: center; 
+  }
+  .dauntmem {
+    grid-template-columns: 1fr; 
+  }
+
+  .member {
+    margin: 10px 0; 
+  }
+
+  .profile {
+    width: 6px; 
+    height: auto; 
+  }
+  .works, .certificates {
+    width: 100%;
+  }
+  .educ {
+    font-size: 1.2rem;
+  }
+  .concen {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact {
+    font-size: 1.3rem; 
+    opacity: 60%;
+    font-weight: bold;
+  }
+}
+
+@media(min-width: 668) and (max-width:1024px){
+  .logoname2, .dauntteam {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    padding: 10px;
+  }
+
+  .logoimg-fluid {
+    width: 80%; 
+  }
+
+}
+
+
+
+
+/*page2*/
+@media (max-width: 667px) {
+  .aboutus h2 {
+    font-size: 1.5rem; 
+    margin-bottom: 10px; 
+  }
+
+  .aboutus p {
+    font-size: 0.9rem; 
+    margin: 0 10px; 
+  }
+
+  .group-fluid {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 15px;
+  }
+}
+
+/*logo and page 3 team*/
+@media(max-width:1024px){
+  .logoimg-fluid {
+    width: 80%; 
+  }
+  .dauntteam {
+    font-size: 2rem;
+    margin-top: -10px;
+  }
+
+  .member {
+    margin: 10px 0; 
+  }
+
+  .profile {
+    width: 65px; 
+    height: auto; 
+}
+}
+

@@ -1,0 +1,43 @@
+
+.logoimg-fluid:hover{
+  background-color: #646461; 
+  transform: translateY(-5px); 
+  border-radius: 5000px;
+}
+
+/*Members*/
+.member:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+.member:hover .profile {
+  transform: rotate(10deg) scale(1.1); 
+}
+.member:hover .mem, 
+.member:hover .educ {
+  color: #FFD700; 
+}
+
+.personal {
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #828282;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.personal:hover {
+  background-color: #FFD700; 
+  transform: translateY(-5px); 
+}
+
+/*Footer*/
+.det{
+  transition: transform 0.2s ease;
+}
+.det :hover {
+  transform: scale(0.9);
+}
