@@ -54,12 +54,17 @@ nav ul {
   gap: 30px;
   
 }
+nav .myteam {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  opacity: 90%;
+}
+
 nav ul li a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
   font-size: 20px;
-  
 }
 
 .container_1 {
