@@ -3,8 +3,7 @@
 }
 #page2{
   background: linear-gradient(to right, #1C1C1C, #292929, #666666); 
-  width: 100vw;
-  height: 100vh;
+
 }
 #page3{
   background: linear-gradient(to bottom, #1C1C1C, #292929, #666666); 
@@ -20,19 +19,26 @@
 
 }
 
-
-@media (max-width: 667px) {
+@media(max-width: 667px) {
   .logoname2 {
     flex-direction: column; 
     align-items: center; 
     text-align: center;
-    padding: 20px;
+    padding: 0px;
   }
 
   .logoimg-fluid {
     width: 80%; 
-    margin-bottom: -10px; 
+    margin-top: 100px;
   }
+  .dauntteam{
+    font-size: 1.2rem !important;
+    margin-top: 20px;
+    border: solid;
+    border-radius: 20px;
+    border-color: #666666 !important;
+  }
+
   .aboutus{
     font-size: .2rem;
   }
@@ -87,11 +93,12 @@
 }
 
 @media(min-width: 668) and (max-width:1024px){
-  .logoname2, .dauntteam {
+  .dauntteam {
     flex-direction: column; 
     align-items: center; 
     text-align: center;
-    padding: 10px;
+    padding: 0px;
+    border: solid;
   }
 
   .logoimg-fluid {
@@ -101,9 +108,7 @@
 }
 
 
-
-
-/*page2*/
+/*page2 about*/
 @media (max-width: 667px) {
   .aboutus h2 {
     font-size: 1.5rem; 
@@ -124,6 +129,18 @@
 
 /*logo and page 3 team*/
 @media(max-width:1024px){
+  .dauntteam {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+    border-color: #666666 !important;
+  }
+  .dauntteam {
+    margin-top: -20px;
+  }
   .logoimg-fluid {
     width: 80%; 
   }

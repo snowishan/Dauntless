@@ -2,7 +2,40 @@
 .logoimg-fluid:hover{
   background-color: #646461; 
   transform: translateY(-5px); 
-  border-radius: 5000px;
+  border-radius: 500px;
+}
+
+.logoimg-fluid {
+  animation: popDown 0.4s ease-out;
+  opacity: 0; 
+  animation-fill-mode: forwards; 
+}
+@keyframes popDown {
+  0% {
+    transform: translateY(-50px) scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+
+.dauntteam {
+  animation: fadeInSlideUp 1s ease-in-out;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /*Members*/
