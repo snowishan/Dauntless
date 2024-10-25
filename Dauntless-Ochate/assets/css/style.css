@@ -1,0 +1,207 @@
+/* Page 1*/
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar{
+  background: linear-gradient(to bottom, #1c1c1c65, #29292900, #82828200);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+.navbar .nav-link {
+  color: white !important;
+}
+.navbar .navbar-brand {
+  color: white !important;
+}
+.navbar .nav-link:hover {
+  color: #484747 !important;
+}
+
+.pic-fluid {
+    width: 500px;  
+    height: auto;
+}
+.col-md-6 {
+  width: 48%;
+  margin-right: -5px;
+}
+.col-md-3{
+  width: 50%;
+  color: white;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello{
+  font-size: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+.port{
+  font-size: 40px;
+}
+
+.pic_text {
+  padding: 20px;
+}
+
+.pic_text .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pic-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Page2*/
+.background-image {
+  opacity: 40%;
+}
+.aboutskill {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutmerow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.aboutgoal-md-6, .skillshobb-md-6 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  width: auto;
+}
+
+.background-image {
+  width: 600px; 
+  height: auto; 
+  display: block;
+  border-radius: 10px; 
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; 
+  padding: 10px;
+  width: 90%; 
+}
+
+.aboutme, .skills, .education, .contact{
+  color: white;
+  opacity: 70%;
+  font-size: 3rem; 
+  font-weight: bold;
+  opacity:50%;
+  margin: 0.5rem 0; 
+}
+
+.aboutphrase {
+  font-style: italic;
+}
+.aboutphrase, ul {
+  font-size: 1.25rem; 
+  line-height: 1.6; 
+  margin: 0.5rem 0; 
+}
+
+
+/* Page 3*/
+.education {
+  text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.progress-bar.custom-color {
+  background-color: #404040; 
+}
+
+.coursecert {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.carousel-item img {
+  width: 100%; 
+  height: auto;
+  max-height: 500px; 
+  object-fit: cover; 
+}
+
+
+.carousel {
+  max-width: 700px; 
+  margin: 0 auto;  
+}
+
+.progress .progress-bar{
+  background-color: #404040; 
+}
+
+.educ{
+  opacity: 60%
+}
+
+.coursecert {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.col-md-6 {
+  width: 48%;
+}
+
+/* Footer*/
+.contactdetails, .concen, .icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactme, .details{
+  color: white;
+  padding: 40px;
+}
+.contact{
+  text-align: center;
+}
+.icon, .iconname{
+  display: inline-flex;
+}
+.concen{
+  background-color: #40404030;
+  border-radius: 30px;
+}
+.iconname a {
+  color: rgba(255, 255, 255, 0.922); 
+}
+
+.iconname a:hover {
+  color: #494b6d;
+  cursor: pointer;
+}
