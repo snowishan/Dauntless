@@ -3,6 +3,7 @@
     text-align: center; 
     font-weight: bold;
     font-style: italic;
+    opacity: 80%;
   }
 
   .navbar-nav {
@@ -33,7 +34,7 @@
   color: white !important;
 }
 .navbar .nav-link:hover {
-  color: #484747 !important;
+  color: #757474 !important;
 }
 .logoname2, .logo-md-5, .logoname-md-7{
   justify-content: center;
