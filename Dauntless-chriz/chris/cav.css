@@ -99,6 +99,7 @@ nav ul li a {
 .me {
   margin-top: 10px; 
 }
+
 .my-name {
   animation: drop 1s ease-in-out; 
 }
@@ -160,7 +161,7 @@ nav ul li a {
   margin-left: 1000px;
   
 }
-
+ 
 .container {
   display: flex;
   justify-content: space-between;
@@ -171,7 +172,7 @@ nav ul li a {
   margin: 20px auto;
   background: rgb(79, 75, 75);
   color: white;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
   flex-wrap: wrap;
   margin-bottom: 80px;
   margin-top: 8px;
@@ -222,7 +223,7 @@ nav ul li a {
   margin: 20px auto;
   background: rgb(105, 102, 102);
   color: white;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
   flex-wrap: wrap;
 }
 .eds_, .cons{
@@ -291,8 +292,9 @@ nav ul li a {
   margin: 20px auto;
   background: rgb(79, 75, 75);
   color: white;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
   flex-wrap: wrap;
+
 }
 .conme{
   flex: 1;
